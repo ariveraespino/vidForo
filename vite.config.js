@@ -30,7 +30,7 @@ const obtenerEntradas = ()=>{
 
 export default defineConfig({
     appType: 'mpa',
-    base: process.env.DEPLOY_BASE_URL,
+    base: '/vidForo/',
     build: {
         rollupOptions: {
             input: obtenerEntradas()
